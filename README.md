@@ -45,7 +45,7 @@ desafio-tecnico-herois/  # Pasta raiz do projeto
 - **Angular CLI** (instalado globalmente via `npm install -g @angular/cli@16.2.16`)
 - **MySQL Server** e **MySQL Workbench** (ou outra ferramenta de gerenciamento de banco)
 - **Visual Studio 2022** (recomendado para o backend)
-- Navegador moderno (ex.: Chrome, Firefox)
+- Navegador (ex.: Chrome, Firefox)
 
 ### 1. Configurar o Banco de Dados
 1. Abra o MySQL Workbench e conecte-se ao seu servidor MySQL (ex.: `localhost`).
