@@ -21,7 +21,7 @@ O **Projeto Heróis** é uma aplicação web FullStack desenvolvida para gerenci
 ### Frontend
 - **Angular 16.0**: Framework para construção da interface de usuário.
 - **TypeScript**: Para maior tipagem e segurança no código.
-- **HTML e CSS**: Para estruturação e estilização básica da interface.
+- **HTML e SCSS**: Para estruturação e estilização básica da interface.
 
 ### Versionamento
 - **Git & GitHub**: Para versionamento e hospedagem do código.
