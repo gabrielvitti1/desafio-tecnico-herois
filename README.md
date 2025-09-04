@@ -37,7 +37,6 @@ desafio-tecnico-herois/  # Pasta raiz do projeto
 └── README.md            # Arquivo README com informações do projeto
 ```
 
-▶️ **Como Rodar o Projeto (Passo a Passo)**
 
 ▶️ **Como Rodar o Projeto (Passo a Passo)**
 
