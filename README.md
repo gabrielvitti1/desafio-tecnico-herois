@@ -28,7 +28,7 @@ O **Projeto Heróis** é uma aplicação web FullStack desenvolvida para gerenci
 
 📁 **Estrutura do Projeto**
 
-O repositório está organizado em três pastas principais, refletindo a arquitetura do projeto:
+O repositório está organizado em três pastas principais:
 ```
 desafio-tecnico-herois/  # Pasta raiz do projeto
 ├── herois-api/          # Pasta contendo o backend ASP.NET Core da aplicação
