@@ -30,26 +30,11 @@ O **Projeto Heróis** é uma aplicação web FullStack desenvolvida para gerenci
 📁 **Estrutura do Projeto**
 O repositório está organizado em três pastas principais, refletindo a arquitetura do projeto:
 ```
-projeto-herois/
-├── Backend/
-│   ├── HeroisApi/
-│   │   ├── Controllers/
-│   │   ├── Models/
-│   │   ├── Services/
-│   │   ├── Program.cs
-│   │   └── HeroisApi.csproj
-├── Frontend/
-│   ├── herois-app/
-│   │   ├── src/
-│   │   │   ├── app/
-│   │   │   ├── assets/
-│   │   │   ├── environments/
-│   │   │   └── index.html
-│   └── package.json
-├── Database/
-│   ├── herois.sql
-│   ├── superpoderes.sql
-└── README.md
+desafio-tecnico-herois/  # Pasta raiz do projeto
+├── herois-api/          # Pasta contendo o backend ASP.NET Core da aplicação
+├── herois-app/          # Pasta contendo o frontend Angular da aplicação
+├── sql-scripts/         # Pasta contendo os scripts SQL (criação de contexto e tabelas)
+└── README.md            # Arquivo README com informações do projeto
 ```
 
 ▶️ **Como Rodar o Projeto (Passo a Passo)**
@@ -64,8 +49,7 @@ projeto-herois/
 
 ### 1. Configurar o Banco de Dados
 1. Abra o MySQL Workbench e conecte-se ao seu servidor MySQL (ex.: `localhost`).
-2. Crie um banco de dados chamado `hero`.
-3. Execute os scripts SQL localizados na pasta `Database/`:
+2. Execute os scripts SQL localizados na pasta `Database/`:
    - `Hero.sql`: Cria o contexto das tabelas.
    - `Herois.sql`: Cria a tabela para armazenar os heróis.
    - `Superpoderes.sql`: Cria a tabela para armazenar os superpoderes.
@@ -74,23 +58,22 @@ projeto-herois/
 4. Verifique se as tabelas foram criadas corretamente.
 
 ### 2. Iniciar o Back-End (API ASP.NET Core)
-1. Abra a solução `Backend/HeroisApi/HeroisApi.sln` no Visual Studio 2022.
+1. Abra a solução `desafio-tecnico-herois/herois-api/Heroes.sln` no Visual Studio 2022.
 2. Configure a conexão com o banco de dados MySQL:
-   - No arquivo `Program.cs`, certifique-se de que as credenciais fornecidas (ex.: `user=root`, `password=admin`) correspondem à sua instância do MySQL.
+   - No arquivo `Program.cs`, certifique-se de que as credenciais fornecidas correspondam à sua instância do MySQL.
 
      ```csharp
      builder.Services.AddDbContext<HeroesContext>(options =>
-         options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection")));
-     ```
+         options.UseMySQL("server=localhost;database=hero;user=SEU_USUARIO;password=SUA_SENHA"));
    
 3. Pressione `F5` ou clique em "Iniciar" no Visual Studio para compilar e executar a API.
 4. A API estará disponível em `https://localhost:5001` (ou outra porta configurada).
 5. Acesse `https://localhost:5001/swagger` para testar os endpoints da API via Swagger.
 
 ### 3. Iniciar o Front-End (Aplicativo Angular)
-1. Abra um terminal e navegue até a pasta do frontend:
+1. Na pasta raiz do repositório, abra um terminal e navegue até a pasta do frontend:
    ```bash
-   cd Frontend/herois-app
+   cd herois-app
    ```
 2. Instale as dependências:
    ```bash
