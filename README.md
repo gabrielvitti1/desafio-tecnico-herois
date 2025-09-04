@@ -50,7 +50,7 @@ desafio-tecnico-herois/  # Pasta raiz do projeto
 ### 1. Configurar o Banco de Dados
 1. Abra o MySQL Workbench e conecte-se ao seu servidor MySQL (ex.: `localhost`).
 2. Execute os scripts SQL localizados na pasta `Database/`:
-   - `Hero.sql`: Cria o contexto das tabelas.
+   - `Hero.sql`: Cria o contexto das tabelas (execute-o primeiro).
    - `Herois.sql`: Cria a tabela para armazenar os heróis.
    - `Superpoderes.sql`: Cria a tabela para armazenar os superpoderes.
    - `Herois_Superpoderes.sql`: Cria a tabela para armazenar as relaçoes n:n entre heróis e superpoderes.
