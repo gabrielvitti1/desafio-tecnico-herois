@@ -37,7 +37,6 @@ desafio-tecnico-herois/  # Pasta raiz do projeto
 └── README.md            # Arquivo README com informações do projeto
 ```
 
-
 ▶️ **Como Rodar o Projeto (Passo a Passo)**
 
 ### Pré-requisitos
@@ -45,7 +44,8 @@ desafio-tecnico-herois/  # Pasta raiz do projeto
 - **Node.js** (versão 16.17.0 ou superior) e **npm**
 - **Angular CLI** (instalado globalmente via `npm install -g @angular/cli@16.2.16`)
 - **MySQL Server** e **MySQL Workbench** (ou outra ferramenta de gerenciamento de banco)
-- **Visual Studio 202
+- **Visual Studio 2022** (recomendado para o backend)
+- Navegador moderno (ex.: Chrome, Firefox)
 
 ### 1. Configurar o Banco de Dados
 1. Abra o MySQL Workbench e conecte-se ao seu servidor MySQL (ex.: `localhost`).
