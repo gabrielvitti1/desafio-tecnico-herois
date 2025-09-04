@@ -19,7 +19,7 @@ O **Projeto Heróis** é uma aplicação web FullStack desenvolvida para gerenci
 - **Swagger/OpenAPI**: Documentação interativa da API.
 
 ### Frontend
-- **Angular 16.0**: Framework para construção da interface de usuário.
+- **Angular**: Framework para construção da interface de usuário.
 - **TypeScript**: Para maior tipagem e segurança no código.
 - **HTML e SCSS**: Para estruturação e estilização básica da interface.
 
