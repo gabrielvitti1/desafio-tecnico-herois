@@ -28,6 +28,7 @@ O **Projeto Heróis** é uma aplicação web FullStack desenvolvida para gerenci
 - **Git & GitHub**: Para versionamento e hospedagem do código.
 
 📁 **Estrutura do Projeto**
+
 O repositório está organizado em três pastas principais, refletindo a arquitetura do projeto:
 ```
 desafio-tecnico-herois/  # Pasta raiz do projeto
