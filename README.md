@@ -34,7 +34,8 @@ desafio-tecnico-herois/  # Pasta raiz do projeto
 ├── herois-api/          # Pasta contendo o backend ASP.NET Core da aplicação
 ├── herois-app/          # Pasta contendo o frontend Angular da aplicação
 ├── sql-scripts/         # Pasta contendo os scripts SQL (criação de contexto e tabelas)
-└── README.md            # Arquivo README com informações do projeto
+├── README.md            # Arquivo README com informações do projeto
+└── justificativa-tecnica.pdf # Arquivo PDF explicando as decisões técnicas do projeto
 ```
 
 ▶️ **Como Rodar o Projeto (Passo a Passo)**
