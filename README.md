@@ -8,7 +8,6 @@ O **Projeto Heróis** é uma aplicação web FullStack desenvolvida para gerenci
 
 **Funcionalidades**
 - **Gerenciamento de super-heróis**: Inserção, visualização, edição e exclusão dos heróis.
-- **Gerenciamento de Superpoderes**: Associação de múltiplos superpoderes a um herói
 - **Exibição Dinâmica**: Visualização de heróis e seus superpoderes em uma interface amigável.
 
 **Tecnologias Utilizadas**
