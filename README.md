@@ -44,7 +44,7 @@ desafio-tecnico-herois/  # Pasta raiz do projeto
 - **.NET SDK 8.0** (ou superior)
 - **Node.js** 16.17.0 e **npm**
 - **Angular CLI** (instalado globalmente via `npm install -g @angular/cli@16.2.16`)
-- **MySQL Server** e **MySQL Workbench** (ou outra ferramenta de gerenciamento de banco)
+- **MySQL Workbench** (ou outra ferramenta de gerenciamento de banco)
 - **Visual Studio 2022** (recomendado para o backend)
 - Navegador (ex.: Chrome, Firefox)
 
